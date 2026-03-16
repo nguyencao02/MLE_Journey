@@ -9,3 +9,4 @@ class Solution:
         for n in nums:
             if count_map[n] == 1:
                 return n
+            
