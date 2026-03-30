@@ -8,7 +8,7 @@ class Solution:
             curr = stack.pop()
             res.append(curr.val)
             if curr.right:
-                res.append(curr.right)
+                stack.append(curr.right)
             if curr.left:
-                res.append(curr.left)
+                stack.append(curr.left)
         return res
