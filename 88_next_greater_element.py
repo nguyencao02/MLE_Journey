@@ -8,6 +8,6 @@ class Solution:
                 greater_map[smaller_num] = num
             stack.append(num)
         res = []
-        for n in res:
+        for n in nums1:
             res.append(greater_map(n,-1))
-        
+        return res
