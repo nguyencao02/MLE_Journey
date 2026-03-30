@@ -6,9 +6,9 @@ class Solution:
         res = []
         while stack:
             curr = stack.pop()
-            res.append(curr)
+            res.append(curr.val)
             if curr.left:
-                res.append(curr.left)
+                stack.append(curr.left)
             if curr.right:
-                res.append(curr.right)
+                stack.append(curr.right)
         return res[::-1]
