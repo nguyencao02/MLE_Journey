@@ -1,4 +1,5 @@
 class Solution:
+    def subTree()
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
         if not q and not p:
             return True
