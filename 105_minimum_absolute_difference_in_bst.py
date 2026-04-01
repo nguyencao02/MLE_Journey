@@ -11,6 +11,6 @@ class Solution:
             self.prev = node.val
             inorder(node.right)
         inorder(root)
-        return self.min_dist
+        return int(self.min_dist)
         
         
